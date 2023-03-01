@@ -8,9 +8,8 @@ def fact(n):
 	Throws: ValueError if n < 0
 	"""
 
-    
-    if n == 0 :
-        return 1
+    if n > 0 or n == 0 :
+        print(math.factorial(n))
         
     if n < 0 :
         raise ValueError("n must be positive")
